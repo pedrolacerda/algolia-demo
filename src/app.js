@@ -71,6 +71,7 @@ search.addWidgets([
     attribute: 'score',
     min: 0,
     max: 10,
+    precision: 2,
   }),
 
   instantsearch.widgets.hits({
