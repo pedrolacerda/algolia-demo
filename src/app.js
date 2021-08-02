@@ -32,7 +32,7 @@ search.addWidgets([
           <div class="hit-year">
             {{#helpers.highlight}}{ "attribute": "year" }{{/helpers.highlight}}
           </div>
-          <div class="hit-rating">\${{rating}}</div>
+          <div class="hit-rating">⭐{{rating}}</div>
         </div>
       `,
     },
