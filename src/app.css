@@ -37,13 +37,18 @@ body {
 
 .ais-Hits-item img {
   margin-right: 1em;
+  max-width: 100%;
 }
 
 .hit-name {
   margin-bottom: 0.5em;
 }
 
-.hit-description {
+.hit-year {
+  margin-bottom: 0.5em;
+}
+
+.hit-genre {
   color: #888;
   font-size: 14px;
   margin-bottom: 0.5em;
