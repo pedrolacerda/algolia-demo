@@ -40,8 +40,9 @@ body {
   max-width: 100%;
 }
 
-.hit-name {
+.hit-title {
   margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
 .hit-year {

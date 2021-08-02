@@ -19,6 +19,7 @@ search.addWidgets([
     attribute: 'genre',
     searcheable: true,
     searchableIsAlwaysActive: true,
+    showMore: true,
   }),
 
   instantsearch.widgets.refinementList({
@@ -26,6 +27,7 @@ search.addWidgets([
     attribute: 'actors',
     searcheable: true,
     searchableIsAlwaysActive: true,
+    showMore: true,
   }),
 
   instantsearch.widgets.ratingMenu({
@@ -42,18 +44,24 @@ search.addWidgets([
 
   instantsearch.widgets.hits({
     container: '#hits',
+    transformItems(items) {
+      return items.map(item => ({
+        ...item,
+        score: Math.round(item.score*100)/100,
+      }));
+    },
+
     templates: {
       item: `
         <div class="row">
           <div class="hit-title">
             {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
           </div>
-          <div class="hit-rating">⭐{{rating}}</div>
-          <div class="hit-rating">Score: {{score}}</div>
+          <div class="hit-rating">{{rating}} ⭐</div>
+          <div class="hit-score">Score: {{score}}</div>
+          <div class="hit-year">Year: {{year}}</div>
           <img src="{{image}}" align="bottom" alt="{{title}}" onerror="this.onerror=null;this.src='https://bitsofco.de/content/images/2018/12/broken-1.png';" />
-          <div class="hit-year">
-            {{#helpers.highlight}}{ "attribute": "year" }{{/helpers.highlight}}
-          </div>
+          
         </div>
       `,
     },
