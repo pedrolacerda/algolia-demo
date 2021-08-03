@@ -4,10 +4,10 @@ This project is intended to show case basic features of Algolia’s platform. It
 
 The main goal of the project was to have a working demo environment in a couple of hours that was able to perform complex searches on the dataset. Users can refine their search by:
 
-- *Genres*: selecting on the left menu or searching for a specific genre
-- *Actors*: selecting the name of the actor on the left menu or searching for it
-- *Rating*: defining the minimum rating (stars) for a title
-- *Score*: the score number was rounded to fit 2 decimals for better readability. Users can select the range of scores for their movies
+- **Genres**: selecting on the left menu or searching for a specific genre
+- **Actors**: selecting the name of the actor on the left menu or searching for it
+- **Rating**: defining the minimum rating (stars) for a title
+- **Score**: the score number was rounded to fit 2 decimals for better readability. Users can select the range of scores for their movies
 
 Each tile contains the details of a movie (title, rating, score, year, cover image), so the user can navigate through the list of titles matching the defined filters.
 
