@@ -30,11 +30,18 @@ A **record** is an object you add to an **index** and want to search for. It can
 }
 ```
 
-You can always reach out to our docs or FAQ to look for more detailed information, as you can see [here](https://www.algolia.com/doc/faq/basics/what-is-an-index/) and [here](https://www.algolia.com/doc/faq/basics/what-is-a-record/).
+**Custom Ranking** is the feature where you will be able to tell Algolia's search engine the most relevant business metrics for you. Adjusting your metrics properly, your search results will return most relevant items first, boosting conversion rates. Typical custom ranking attributes include number of sales, views, likes, ratings, release date, etc. Any boolean or numeric attribute works with custom ranking. I totally recomend you a couple of videos which will give a good understanding of it:
 
-I hope I could answer your quesions. I'd be happy to give you further details if needed.
+- [Overview of Algolia's search configuration](https://play.vidyard.com/qLiR1Shoh12hnmaFWWZXSU?utm_medium=page_link&utm_source=dashboard&autoplay=2)
+- [Configuring business relevance](https://www.youtube.com/watch?v=kC6BBEjicS8&)
+
+You can always reach out to our docs or FAQ to look for more detailed information, as you can see [here](https://www.algolia.com/doc/faq/basics/what-is-an-index/), [here](https://www.algolia.com/doc/faq/basics/what-is-a-record/) and [here](https://www.algolia.com/doc/guides/managing-results/must-do/custom-ranking/)
+
+I hope I could answer your quesions. I'd be happy to give you further details if needed or jump in call to discuss these topics.
 
 Best,
+
+Pedro
 
 ## Question 2
 
@@ -47,3 +54,24 @@ Best,
 Hello Matt,
 
 We appreciate your kind and open feedback. At Algolia, we we're always open to hear back from our customers and learn from it.
+
+Our Product Team did several experimentations before releasing the new dashboard design. It was designed to improve navigation through the configurations and make it easier for customers to define their search rules, therefore having better searching experiences.
+
+If you'd like, I can check the availability of one of our Product Managers, so you can elaborate on your feedback and hear directly from them about the decisions they made.
+
+As of now, you can still switch back to the legacy interface on your profile settings.
+
+Kind regards,
+
+Pedro
+
+## Question 3
+
+> Hi,
+>
+> I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+>
+> Regards, Leo
+
+Hi Leo,
+
