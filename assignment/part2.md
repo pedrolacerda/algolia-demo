@@ -16,7 +16,7 @@ Hi George,
 
 Thanks for your question. I'm glad you reached out about your onboarding, these concepts will be key for you to understanding how Algolia works and get the best out of it.
 
-I'll first start with the definition of `Indexing`, as it will be helpful to understand Records. An **index** is the place where the data used by a search engine is stored. And **index** is designed and optimized for search operations. For example, in an ecommerce website, the index would be a complete list of all products with a custom ranking. Thus, `Indexing` is the process of adding data to an **index** where it can be searched later on.
+I'll first start with the definition of `Indexing`, as it will be helpful to understand `Records`. An **index** is the place where the data used by a search engine is stored. An **index** is designed and optimized for search operations. For example, in an e-commerce website, the index would be a complete list of all products with a custom ranking. Thus, `Indexing` is the process of adding data to an **index** where it can be searched later on.
 
 A **record** is an object you add to an **index** and want to search for. It can contain any number of attributes. An **index** can also contain any number of **records**. Here is an example of a record, formatted in JSON:
 
@@ -30,7 +30,7 @@ A **record** is an object you add to an **index** and want to search for. It can
 }
 ```
 
-**Custom Ranking** is the feature where you will be able to tell Algolia's search engine the most relevant business metrics for you. Adjusting your metrics properly, your search results will return most relevant items first, boosting conversion rates. Typical custom ranking attributes include number of sales, views, likes, ratings, release date, etc. Any boolean or numeric attribute works with custom ranking. I totally recomend you a couple of videos which will give a good understanding of it:
+**Custom Ranking** is the feature where you will be able to tell Algolia's search engine the most relevant business metrics for you. Adjusting your metrics properly, your search results will return most relevant items first, boosting conversion rates. Typical custom ranking attributes include number of sales, views, likes, ratings, release date, etc. Any boolean or numeric attribute works with custom ranking. I totally recomend you a couple of videos which will give you a good understanding of it:
 
 - [Overview of Algolia's search configuration](https://play.vidyard.com/qLiR1Shoh12hnmaFWWZXSU?utm_medium=page_link&utm_source=dashboard&autoplay=2)
 - [Configuring business relevance](https://www.youtube.com/watch?v=kC6BBEjicS8&)
@@ -75,3 +75,16 @@ Pedro
 
 Hi Leo,
 
+Integrating Algolia into your website is a straightforward process. We have a solid API you can levarage and integrate with your application with a few steps.
+
+First of all, I'd recommend you to upload your data to Algolia and configure your search parameters. Having that set, you can leverage the `InstantSearch` libraries to integrate with your current application. `InstantSearch` comes with a variety of built in widgets you can use, reducing the time needed to integrate.
+
+The best way to get started is heading to our [docs](https://www.algolia.com/doc/) and follow the instructions given you tech stack. 
+
+If you don’t have your own developers team or don’t want to have that built in house, we can connect you to one of our verified partners.
+
+Anyway, I’d suggest us to have a quick call so you can give me more details on the structure of your website and your engineering team, so I can give you the best guidance. Could you provide me two or three time slots in the coming week?
+
+Best,
+
+Pedro
